@@ -1,5 +1,5 @@
 """
-This is the fundamental set of classes and functions for the analysis of whatsapp conversations.
+This is the fundamental set of classes and functions for the analysis of WhatsApp conversations.
 """
 
 import numpy as np  # fundamental data analysis and plotting packages
@@ -8,7 +8,7 @@ import pandas as pd
 import datetime as datetime  # package to deal with the dates and times of the messages
 
 
-class WhatsappConversation:
+class WhatsAppChat:
     def __init__(self, file_name):
         self.file_name = file_name  # The file name of the exported whatsapp conversation.
 
